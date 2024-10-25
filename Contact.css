@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rowdies", sans-serif;
+
+  font-style: normal;
+
+  color: #000;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  padding: 10px 50px;
+}
+.nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+}
+.nav .logo .b {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(27, 7, 136);
+  border-radius: 50%;
+  display: flex;
+  padding: 20px;
+  margin-top: 1vh;
+  transition: all linear 0.4s;
+}
+.nav .logo a{
+  text-decoration: none;
+}
+.logo h1 {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+}
+.nav .r {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.nav .r .a {
+  height: 4vh;
+  width: 1px;
+  background-color: #000;
+}
+.nav .r a {
+  font-family: "poppins";
+  text-decoration: none;
+  transition: all ease 0.4s;
+}
+
+.nav .r a:hover {
+  color: #b6b4b4;
+}
+.underline {
+  width: 100%;
+  height: 1px;
+  background-color: #222222;
+}
+.contact_from{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 20px 50px;
+    
+}
+.con_left{
+    width: 40%;
+    height: 100%;
+    margin: 10vh;
+    
+    
+}
+.con_left .i{
+    
+    
+}
+.con_left .i h1{
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  
+    
+}
+.con_left .i h3{
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 2vh;
+
+
+}
+.con_left .t h1{
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  margin-top: 7vh;
+
+m
+
+}
+.con_left .t h4{
+    font-family: "Source Code Pro", monospace;
+    font-weight: 400;
+  margin-top: 2vh;
+
+}
+.con_left .tt h1{
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  margin-top: 7vh;
+
+
+}
+.con_left .tt h4{
+    font-family: "Source Code Pro", monospace;
+  margin-top: 2vh;
+    font-weight: 400;
+}
+.icon{
+    margin-top: 5vh;
+}
+.icon a{
+    text-decoration: none;
+
+
+}
+.icon i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    margin: 1vw;
+    
+    
+    
+}
+.icon i:hover{
+    color: #b6b4b4;
+}
+
+.d{
+    width: 1px;
+    height: 80%;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+.con_right{
+    width: 60%;
+    height: 100%;
+    padding-left: 5px;
+    padding-top: 30px;
+}
+.n{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.n input{
+        font-family: "Source Code Pro", monospace;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin-bottom: 5vh;
+}
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.c input{
+        font-family: "Source Code Pro", monospace;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #000;
+}
+.m{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.m textarea{
+        font-family: "Source Code Pro", monospace;
+    padding: 100px 120px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin-top: 10vh;
+}
+.m button{
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    transition: all ease 0.4s;
+    border-radius: 5px;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+}
+.m button:hover{
+    color: #000;
+    background-color: #b6b4b4;
+}
+.k{
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+.f{
+  width: 100%;
+  height: 30vh;
+  
+  
+}
+
+.footer{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.footer .co h2{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10px;
+}
+.footer .co h5{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+.footer .phone h2{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+.footer .phone h5{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+ .footer .email h2{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+.footer .email h5{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+ .footer .follow h2{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+.footer .follow i{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  cursor: pointer;
+}
+.footer .follow i:hover{
+  color: #b6b4b4;
+}
